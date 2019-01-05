@@ -1,0 +1,66 @@
+$darkpurple: #0c002b;
+$grey: #faf7f5;
+$offwhite: #fffeff;
+$pink: #ff718e;
+$darkgrey: #ada8aa;
+$lightgrey: #d1cbcd;
+
+//VARIABLES NEEDED FOR THE SASS GRID SYSTEM
+//MIGHT NEED THIS AND THE MEDIA BREAKPOINTS COMMENTED OUT BELOW FOR FUTURE PROJECTS
+//THANK YOURSELF FOR SAVING THIS IN THE FUTURE!!! 
+$grid-columns: 12;
+$grid-max-width: 1200px;
+$breakpoint-small: "only screen and (min-width: 0px)";
+$breakpoint-medium: "only screen and (min-width: 768px)";
+$breakpoint-large: "only screen and (min-width: 1008px)";
+$breakpoint-xl: "only screen and (min-width: 1300px)";
+
+//SASS VERSION OF BOOTSTRAP'S GRID SYSTEM
+//SO col-md-3 will take up 3/12 grid lines or 25%
+// @media #{$breakpoint-small} {
+//   .container {
+//     width: 95%;
+//     max-width: $grid-max-width;
+//   }
+//   @for $i from 1 through $grid-columns {
+//     .col-sm-#{$i} {
+//       width: 100% / $grid-columns * $i;
+//     }
+//   }
+// }
+//
+// @media #{$breakpoint-medium} {
+//   .container {
+//     width: 95%;
+//     max-width: $grid-max-width;
+//   }
+//   @for $i from 1 through $grid-columns {
+//     .col-md-#{$i} {
+//       width: 100% / $grid-columns * $i;
+//     }
+//   }
+// }
+//
+// @media #{$breakpoint-large} {
+//   .container {
+//     width: 95%;
+//     max-width: $grid-max-width;
+//   }
+//   @for $i from 1 through $grid-columns {
+//     .col-lg-#{$i} {
+//       width: 100% / $grid-columns * $i;
+//     }
+//   }
+// }
+//
+// @media #{$breakpoint-xl} {
+//   .container {
+//     width: 95%;
+//     max-width: $grid-max-width;
+//   }
+//   @for $i from 1 through $grid-columns {
+//     .col-xl-#{$i} {
+//       width: 100% / $grid-columns * $i;
+//     }
+//   }
+// }
